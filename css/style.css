@@ -105,6 +105,7 @@ ul {
 .container {
     max-width: 1158px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 button {
@@ -128,6 +129,7 @@ button {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 
 .logo-color {
@@ -137,7 +139,6 @@ button {
 
 .header {
     border-bottom: 1px solid #E7E9FC;
-    padding: 24px 0;
 }
 
 .header-wrapper {
@@ -148,7 +149,6 @@ button {
 
 .header-nav {
     display: flex;
-    gap: 76px;
     align-items: center;
 }
 .header-menu {
