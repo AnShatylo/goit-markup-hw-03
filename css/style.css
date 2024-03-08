@@ -103,8 +103,7 @@ ul {
     padding: 120px 0;
 }
 .container {
-    max-width: 1128px;
-    padding: 0 15px;
+    max-width: 1158px;
     margin: 0 auto;
 }
 
@@ -159,6 +158,7 @@ button {
 
 .header-menu .header-menu-item .header-menu-item-link {
     font-weight: 500;
+    padding: 24px 0;
 }
 
 .contact-list {
@@ -185,13 +185,15 @@ button {
     background: #2e2f42;
 }
 .banner-title {
-    max-width: 500px;
+    max-width: 496px;
     margin: 0 auto;
 }
 .banner-btn {
     display: block;
     margin: 48px auto 0 auto;
     padding: 16px 32px;
+    min-width: 169px;
+    border-radius: 4px;
 }
 
 /* ========END========= */
@@ -251,7 +253,7 @@ button {
 }
 
 .team-member-wrapper {
-    padding: 16px 32px;
+    padding: 32px 0;
 }
 
 .team-member-name {
@@ -262,26 +264,22 @@ button {
 
 /* PORTFOLIO */
 
-.portfolio-list-row {
+.portfolio-list {
     display: flex;
-    gap: 24px;
-    margin-bottom: 48px;
-}
-
-.portfolio-list-row:last-child {
-    margin-bottom: 0;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 .portfolio-list-item {
-    width: calc((100% - 24px) / 2);
+    width: calc((100% - 48px) / 3);
     border: 1px solid #e7e9fc;
 }
 
 .portfolio-descr-wrapper {
     padding: 32px 16px;
-    border-bottom: 1px solid #e7e9fc;
-    border-left: 1px solid #e7e9fc;
-    border-right: 1px solid #e7e9fc;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .portfolio-item-title {
@@ -297,13 +295,9 @@ button {
     padding: 100px 0;
 }
 
-.footer-wrapper {
-    max-width: 264px;
-}
-
 .footer .logo {
     color: #4d5ae5;
-    display: block;
+    display: inline-block;
     margin-bottom: 16px;
     
 }
@@ -315,5 +309,6 @@ button {
 
 .footer .footer-text {
     color: #f4f4fd;
+    max-width: 264px
 }
 /* ========END========= */
