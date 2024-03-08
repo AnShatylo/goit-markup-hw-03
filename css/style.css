@@ -156,9 +156,12 @@ button {
     gap: 40px;
 }
 
+.header-menu .header-menu-item {
+    padding: 24px 0;
+}
 .header-menu .header-menu-item .header-menu-item-link {
     font-weight: 500;
-    padding: 24px 0;
+    
 }
 
 .contact-list {
